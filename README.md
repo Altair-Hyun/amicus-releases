@@ -28,7 +28,7 @@ Amicus는 Python을 번들하지 않습니다. 백엔드가 Python 사이드카�
 | **Windows** | `winget install Python.Python.3.12` (또는 [python.org](https://www.python.org/downloads/windows/)에서 설치 시 **"Add python.exe to PATH"** 체크) |
 | **macOS** | `brew install python@3.12` |
 
-> 3.11 미만은 지원하지 않습니다. Python 패키지는 첫 실행 시 `~/.amicus/venv`에 **자동 설치**됩니다(사용자 조치 불필요).
+> 3.11 미만은 지원하지 않습니다. Python 패키지는 첫 실행 시 `~/.amicus/amicus`에 **자동 설치**됩니다(사용자 조치 불필요).
 
 ---
 
