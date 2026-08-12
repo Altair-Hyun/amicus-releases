@@ -30,6 +30,9 @@ Amicus는 Python을 번들하지 않습니다. 백엔드가 Python 사이드카�
 
 > 3.11 미만은 지원하지 않습니다. Python 패키지는 첫 실행 시 `~/.amicus/amicus`에 **자동 설치**됩니다(사용자 조치 불필요).
 
+### Windows — Git Bash 필수
+Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`sed` 등)을 실행합니다. [Git for Windows](https://gitforwindows.org/)를 설치하세요. (없으면 PowerShell로 제한 동작합니다.)
+
 ---
 
 ## 패치노트
