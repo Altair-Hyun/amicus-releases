@@ -38,6 +38,18 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.4-smoke.16 — 2026-08-26
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* fix(agent-loop): plan-first continuation trailing-assistant 회귀 — 런 중간 끊김 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/81
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.4-smoke.15...v1.9.4-smoke.16
+
+</details>
+
 ### v1.9.4-smoke.15 — 2026-08-26
 
 <details><summary>상세 (auto-generated)</summary>
