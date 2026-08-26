@@ -38,6 +38,19 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.4-smoke.14 — 2026-08-26
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* sync 스폰 데드 체인 제거 — spawnPythonSync · executeFileTextSync by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/77
+* perf(watcher): seen-items 조회 역전 — 전체 로드 → 후보 IN-clause 청크 조회 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/78
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.4-smoke.13...v1.9.4-smoke.14
+
+</details>
+
 ### v1.9.4-smoke.13 — 2026-08-26
 
 <details><summary>상세 (auto-generated)</summary>
