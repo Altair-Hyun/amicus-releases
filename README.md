@@ -38,6 +38,24 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.4-smoke.12 — 2026-08-26
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* perf(python,shell): 파이썬 툴 실행과 Windows CLI 탐색에서 동기 spawn 을 걷어낸다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/69
+* perf(shell): 프로세스 트리 종료에서 동기 execSync 를 걷어낸다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/70
+* perf(shell): git-bash CLI 탐색 캐시에 상한을 둔다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/71
+* fix: Stop 세션 파이프라인 재설계 — 무반응·작업 부활·불완전 kill 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/72
+* fix(chat): 채팅 세션 UX 4건 — 라이트모드 배색·이미지 붙여넣기·제목 편집 발견성 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/73
+* fix(chat): 세션 전환 스크롤 고정 해소와 읽음 구분선 (이슈 ②) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/74
+* fix(sidebar): 세션 제목 연필 — hover 시 제목 왼쪽·테마 SVG·또렷한 색 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/75
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.4-smoke.11...v1.9.4-smoke.12
+
+</details>
+
 ### v1.9.4-smoke.11 — 2026-08-21
 
 <details><summary>상세 (auto-generated)</summary>
