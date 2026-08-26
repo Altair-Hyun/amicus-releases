@@ -38,6 +38,19 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.4-smoke.15 — 2026-08-26
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* perf(terminal): 셸 프리웜 + 첫 fit 즉시화 — 터미널 탭 기동 지연 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/79
+* feat(agent-loop): plan-first 서사 강제 — 턴 0 tool_choice none + 무서사 리페어 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/80
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.4-smoke.14...v1.9.4-smoke.15
+
+</details>
+
 ### v1.9.4-smoke.14 — 2026-08-26
 
 <details><summary>상세 (auto-generated)</summary>
