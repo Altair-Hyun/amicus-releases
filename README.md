@@ -38,6 +38,58 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.5 — 2026-09-01
+
+v1.9.5
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* feat(auth): Cognito 그룹 로그인 게이트 (production 전환 대비 접근 통제) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/68
+* perf(python,shell): 파이썬 툴 실행과 Windows CLI 탐색에서 동기 spawn 을 걷어낸다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/69
+* perf(shell): 프로세스 트리 종료에서 동기 execSync 를 걷어낸다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/70
+* perf(shell): git-bash CLI 탐색 캐시에 상한을 둔다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/71
+* fix: Stop 세션 파이프라인 재설계 — 무반응·작업 부활·불완전 kill 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/72
+* fix(chat): 채팅 세션 UX 4건 — 라이트모드 배색·이미지 붙여넣기·제목 편집 발견성 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/73
+* fix(chat): 세션 전환 스크롤 고정 해소와 읽음 구분선 (이슈 ②) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/74
+* fix(sidebar): 세션 제목 연필 — hover 시 제목 왼쪽·테마 SVG·또렷한 색 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/75
+* Electron 34→44 + better-sqlite3→node:sqlite 전환 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/76
+* sync 스폰 데드 체인 제거 — spawnPythonSync · executeFileTextSync by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/77
+* perf(watcher): seen-items 조회 역전 — 전체 로드 → 후보 IN-clause 청크 조회 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/78
+* perf(terminal): 셸 프리웜 + 첫 fit 즉시화 — 터미널 탭 기동 지연 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/79
+* feat(agent-loop): plan-first 서사 강제 — 턴 0 tool_choice none + 무서사 리페어 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/80
+* fix(agent-loop): plan-first continuation trailing-assistant 회귀 — 런 중간 끊김 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/81
+* fix(claude): tools 없는 tool_choice none 무효 조합 제거 (plan-first 3차 검증) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/82
+* fix(backend): data_dir 기본값을 통합 폴더 .amicus 로 정렬 — pytest 홈 오염 차단 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/83
+* fix(chat): 렌더링 중 본문 소실 — 어댑터 게이트·strip·orphan result·dash-less 글루 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/84
+* docs: chat live projection 설계 + 근거 없는 원인 단정 금지 규칙 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/85
+* docs(spec): chat 구조 소유권 설계 — native-tool 파생형 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/86
+* fix(chat): 재진입 도구 상태 역전 + 이벤트 트리 깊이 소실 + dead prompt 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/87
+* fix(progress): 이벤트 트리 구성을 2패스로 — 순서 역전·중복 eventId·plan 계층 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/88
+* chore(test): Knowledge Store 죽은 테스트 14건 삭제 — 기준선 18 → 4건 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/89
+* perf(shell): 로그인 셸 환경을 1회 캡처해 재사용 — 명령당 3.6초 제거 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/90
+* fix(test): 로그인 셸 캡처를 주입으로 교체 — PR #90 회귀 수정, 기준선 그린 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/91
+* fix(chat-history): native tool 이벤트가 userVisible=false 로 버려지던 문제 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/92
+* fix(backend-v2): crash-loop 회로가 열려도 잠기지 않던 문제 (로그 47,286회) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/93
+* chore(chat): progress_report 도구와 progress 채널 영구 폐기 (−2,573줄) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/94
+* chore(prompt): line-start rule 808자 제거 — 파서가 이미 흡수한다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/95
+* chore(prompt): Result 라벨 통일·checkbox 금지 규칙 축소 (−499자) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/96
+* fix(chat): chat_messages 를 backend 단독 소유로 + turn 경계 구분자 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/97
+* fix(store): main 의 통합 DB writer 에 busy_timeout 을 건다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/98
+* test(chat): ProgressEvent[] 부터 DOM 까지 전 구간 테스트 (I8) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/99
+* fix(chat): tool card 가 실행한 command 를 보여준다 (live 한정) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/100
+* fix(store): 마이그레이션 2단계가 기존 파일을 덮어쓰지 않게 한다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/101
+* chore(prompt): 파서가 흡수하는 형식 규칙 5개 제거 (−1,083자) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/102
+* fix(chat): 한 줄 안에 샌 label 을 파서가 정리한다 (프롬프트 −636자) by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/103
+* fix(test): data_dir 격리 테스트를 Windows 에서 통과하게 한다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/104
+* fix(build): mac 패키징이 nested entities 를 잃던 문제 — traversal collector 강제 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/105
+* fix(build): asarUnpack 제거 + 가드를 asar 내부까지 검사하도록 고친다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/106
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.4...v1.9.5
+
+</details>
+
 ### v1.9.5 — 2026-08-31
 
 v1.9.5
