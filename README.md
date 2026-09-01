@@ -38,6 +38,20 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.6 — 2026-09-01
+
+v1.9.6 — 사용자 문장을 키워드로 재단하던 경로 전면 제거
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* refactor: 사용자 문장을 키워드로 재단하던 경로를 전면 제거한다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/107
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.5...v1.9.6
+
+</details>
+
 ### v1.9.5-smoke.1 — 2026-09-01
 
 v1.9.5-smoke.1 — 키워드 게이팅 제거 스모크 빌드
