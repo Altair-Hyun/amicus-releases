@@ -38,6 +38,20 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.6-smoke.3 — 2026-09-08
+
+smoke: 무한 툴루프·툴 호출 텍스트화 원인 제거 (PR #110)
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* 무한 툴루프와 툴 호출 텍스트화 — 원인 제거 및 죽은 코드 정리 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/110
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.6-smoke.2...v1.9.6-smoke.3
+
+</details>
+
 ### v1.9.6-smoke.2 — 2026-09-07
 
 v1.9.6-smoke.2 — 에디터 데이터 무결성
