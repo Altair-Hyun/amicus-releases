@@ -38,6 +38,20 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.6-smoke.5 — 2026-09-10
+
+v1.9.6-smoke.5: OpenAI and Claude subscription authentication
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* refactor: 도구 제약과 레거시 파이프라인 정리 및 런타임 회귀 수정 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/111
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.6-smoke.4...v1.9.6-smoke.5
+
+</details>
+
 ### v1.9.6-smoke.4 — 2026-09-08
 
 v1.9.6-smoke.4 — 도구 표면 축소 + 런타임 클램프 정리 스모크
