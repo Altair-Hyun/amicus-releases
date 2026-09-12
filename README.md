@@ -38,6 +38,24 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.7 — 2026-09-12
+
+Amicus v1.9.7
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* feat(automation): 워처/워크플로우를 YAML 파일로 내보내고 되가져온다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/108
+* fix(integrations): GitLab/GitHub 토큰 유실을 고치고 인테그레이션 실패가 드러나게 한다 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/109
+* 무한 툴루프와 툴 호출 텍스트화 — 원인 제거 및 죽은 코드 정리 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/110
+* refactor: 도구 제약과 레거시 파이프라인 정리 및 런타임 회귀 수정 by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/111
+* feat: integrate subscription providers, Gateway, and desktop UX improvements by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/112
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.6...v1.9.7
+
+</details>
+
 ### v1.9.6-smoke.9 — 2026-09-11
 
 Amicus v1.9.6-smoke.9: H-Chat providers and Claude Remote Control for VDI validation
