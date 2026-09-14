@@ -38,6 +38,16 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.7-smoke.2 — 2026-09-14
+
+v1.9.7-smoke.2: chat rendering, backend lifecycle, memory retention and PowerShell encoding fixes
+
+<details><summary>상세 (auto-generated)</summary>
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.7-smoke.1...v1.9.7-smoke.2
+
+</details>
+
 ### v1.9.7-smoke.1 — 2026-09-14
 
 Amicus v1.9.7-smoke.1 — Claude Gateway Remote Control fix
