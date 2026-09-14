@@ -38,6 +38,20 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.7-smoke.4 — 2026-09-14
+
+v1.9.7-smoke.4: session-aware startup authentication and single login button
+
+<details><summary>상세 (auto-generated)</summary>
+
+## What's Changed
+* fix(auth): wait for login click without a saved session by @Altair-Hyun in https://github.com/Altair-Hyun/amicus/pull/115
+
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.7-smoke.3...v1.9.7-smoke.4
+
+</details>
+
 ### v1.9.7-smoke.3 — 2026-09-14
 
 v1.9.7-smoke.3: automatic verified browser login, retryable failures, Workspace opt-in and preserved stability fixes
