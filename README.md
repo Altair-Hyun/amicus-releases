@@ -48,6 +48,16 @@ v1.9.7-smoke.10
 
 </details>
 
+### v1.9.7-smoke.10 — 2026-09-18
+
+v1.9.7-smoke.10
+
+<details><summary>상세 (auto-generated)</summary>
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.7-smoke.9...v1.9.7-smoke.10
+
+</details>
+
 ### v1.9.7-smoke.9 — 2026-09-18
 
 v1.9.7-smoke.9
