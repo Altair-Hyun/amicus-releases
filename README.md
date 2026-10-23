@@ -38,6 +38,16 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.7-smoke.24 — 2026-10-23
+
+Amicus smoke.24: split chat workspace and isolated six-word titles
+
+<details><summary>상세 (auto-generated)</summary>
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.7-smoke.23...v1.9.7-smoke.24
+
+</details>
+
 ### v1.9.7-smoke.23 — 2026-10-21
 
 Amicus smoke.23: account AI visibility, H-Chat settings, and Claude attribution
