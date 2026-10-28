@@ -38,6 +38,16 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.7-smoke.34 — 2026-10-28
+
+Smoke.34: persist chat activity checkpoints and bound UI retention
+
+<details><summary>상세 (auto-generated)</summary>
+
+**Full Changelog**: https://github.com/Altair-Hyun/amicus/compare/v1.9.7-smoke.33...v1.9.7-smoke.34
+
+</details>
+
 ### v1.9.7-smoke.33 — 2026-10-28
 
 Smoke: restore progress and unseen-completion animations with reduced-motion support
