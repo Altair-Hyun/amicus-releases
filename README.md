@@ -38,6 +38,13 @@ Amicus의 셸 도구는 Windows에서 Git Bash로 Unix 명령(`cat`·`grep`·`se
 ## 패치노트
 
 <!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
+### v1.9.8-smoke.3 — 2026-11-05
+
+**추가**
+- Clean Up의 모든 보존 기간에 1일을 고를 수 있습니다.
+**변경**
+- Clean Up 트리의 줄 이름 앞에 어느 기능의 데이터인지 붙였습니다(chat -, watcher -, workflow -).
+
 ### v1.9.8-smoke.2 — 2026-11-05
 
 **수정**
