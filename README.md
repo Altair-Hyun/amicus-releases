@@ -1,5 +1,10 @@
 # Amicus Releases
 
+<!-- DEVELOPMENT-HISTORY-2026 -->
+[2026 개발 이력 및 변경 근거](docs/development-history/README.md) · 원본 변경 기록을 바탕으로 2026-11-09 정리
+<!-- /DEVELOPMENT-HISTORY-2026 -->
+
+
 **Desktop AI Agent — 대화만으로 컴퓨터의 모든 작업을 수행합니다.**
 
 최신 버전은 [Releases](https://github.com/Altair-Hyun/amicus-releases/releases)에서 내려받으세요.
